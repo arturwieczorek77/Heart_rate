@@ -30,8 +30,8 @@ public class Main {
         System.out.printf(" ... full year like 2001: <Enter> ");
         year = input.nextInt();
 
-        HeartRates osoba = new HeartRates(name, surname, day, month, year);
+        HeartRates person = new HeartRates(name, surname, day, month, year);
 
-        osoba.displayPersonData(osoba);
+        person.displayPersonData(person);
     }
 }
